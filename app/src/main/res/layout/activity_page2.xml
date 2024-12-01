@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page2"
+    android:background="#E0E0E0"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/bhome" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            app:srcCompat="@drawable/back111" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="362dp"
+        android:layout_height="429dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chick" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Rosted Chicken"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="374dp"
+        android:layout_height="329dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="This roasted chicken recipe delivers a tender, juicy bird with perfectly crispy skin, infused with the flavors of garlic, lemon, and fresh herbs. It’s a simple yet flavorful dish that’s perfect for any occasion, whether it’s a weeknight dinner or a special gathering. Serve it with roasted vegetables for a complete and satisfying meal.This roasted chicken recipe delivers a tender, juicy bird with perfectly crispy skin, infused with the flavors of garlic, lemon, and fresh herbs. It’s a simple yet flavorful dish that’s perfect for any occasion, whether it’s a weeknight dinner or a special gathering. Serve it with roasted vegetables for a complete and satisfying meal.This roasted chicken recipe delivers a tender, juicy bird with perfectly crispy skin, infused with the flavors of garlic, lemon, and fresh herbs. It’s a simple yet flavorful dish that’s perfect for any occasion, whether it’s a weeknight dinner or a special gathering. Serve it with roasted vegetables for a complete and satisfying meal."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

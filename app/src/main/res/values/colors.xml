@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bred">#CC0C11</color>
+    <color name="byello">#FDBA37</color>
+    <color name="ogray">#939292</color>
+
+</resources>
